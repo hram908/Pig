@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pig</string>
+    <string name="new_game_button">Nouvelle Partie</string>
+    <string name="title_activity_game">Pig</string>
+    <string name="player_one_label">Joueur 1 :</string>
+    <string name="player_two_label">Joueur 2 :</string>
+    <string name="player_one_name">Joueur 1</string>
+    <string name="player_two_name">Joueur 2</string>
+    <string name="hold_button">Encaisser</string>
+    <string name="new_game_menu_item">Nouvelle Partie</string>
+    <string name="rules_menu_item">Règles</string>
+    <string name="game_rules">Les règles du jeu sont très simple. Chacun son tour,
+        Un joueur roule un dé et accumule des points jusqu\'à ce que le joueur obtienne 1. Si le joueur
+        appui sur le bouton "Encaisser", il garde les points, sinon il les perds tous et le tour
+        va au joueur suivant. Le premier qui atteint 100 points gagne la partie.</string>
+    <string name="roll_button">Rouler le dé</string>
+    <string name="player_one_title">Joueur Un</string>
+    <string name="enter_your_name">Entrer Votre Nom</string>
+    <string name="player_two_title">Joueur Deux</string>
+    <string name="your_turn">" ,votre tour"</string>
+    <string name="we_have_a_winner_">Nous avons un gagnant !</string>
+    <string name="congratulations">" ,vous gagnez la partie ! Félicitations ! Voulez-vous jouer encore ?"</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="no_points">Aucun points !</string>
+    <string name="lose_all_your_points">Vous perdez tous vos points !</string>
+    <string name="try_at_least_one_roll_">Essayez au moins une fois !</string>
+    <string name="pig_rules">Règles du jeu</string>
+    <string name="pig_desc">Un joli petit cochon rose</string>
+
+</resources>

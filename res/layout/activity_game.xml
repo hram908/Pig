@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_round_white"
+    android:layout_margin="8dp
+    "
+    tools:context=".GameActivity" >
+
+    <TextView
+        android:id="@+id/textViewPlayerOneLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:text="@string/player_one_label"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/textViewPlayerTwoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewPlayerOneLabel"
+        android:layout_alignRight="@+id/textViewPlayerOneLabel"
+        android:layout_below="@+id/textViewPlayerOneLabel"
+        android:gravity="right"
+        android:text="@string/player_two_label"
+        android:layout_marginLeft="10dp"
+        android:textSize="22sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonHold"
+        style="@style/CustomStyleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/hold_button" />
+
+    <TextView
+        android:id="@+id/textViewsScoreOne"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPlayerOneLabel"
+        android:layout_alignBottom="@+id/textViewPlayerOneLabel"
+        android:layout_toRightOf="@+id/textViewPlayerOneLabel"
+        android:paddingLeft="10dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textViewScoreTwo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPlayerTwoLabel"
+        android:layout_alignBottom="@+id/textViewPlayerTwoLabel"
+        android:layout_alignLeft="@+id/textViewsScoreOne"
+        android:paddingLeft="10dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonRollDice"
+        style="@style/CustomStyleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonHold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/roll_button" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/imageView1"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/textViewTempScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewPlayerTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewPlayerTwoLabel"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayerOne"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/textViewsScoreOne"
+        android:layout_toRightOf="@+id/textViewsScoreOne"
+        android:visibility="visible"
+        android:src="@drawable/pig" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayerTwo"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/textViewScoreTwo"
+        android:layout_toRightOf="@+id/textViewScoreTwo"
+        android:visibility="invisible"
+        android:src="@drawable/pig" />
+
+</RelativeLayout>

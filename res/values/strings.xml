@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pig</string>
+    <string name="new_game_button">New Game</string>
+    <string name="title_activity_game">Pig</string>
+    <string name="player_one_label">Player 1 :</string>
+    <string name="player_two_label">Player 2 :</string>
+    <string name="player_one_name">Player 1</string>
+    <string name="player_two_name">Player 2</string>
+    <string name="hold_button">Hold</string>
+    <string name="new_game_menu_item">New Game</string>
+    <string name="rules_menu_item">Rules</string>
+    <string name="game_rules">The rules for this game are very simple. Each turn,
+        a player rolls a dice and accumulates points until the player gets a 1. If the player
+        hits the "Hold" button, he gets to keep the points, otherwise he loses them all and the turn
+        goes to the other player. The first player to reach 100 points wins the game.</string>
+    <string name="roll_button">Roll Dice</string>
+    <string name="player_one_title">Player One</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="player_two_title">Player Two</string>
+    <string name="your_turn">, It\'s your turn</string>
+    <string name="we_have_a_winner_">We have a Winner !</string>
+    <string name="congratulations">, you win the game ! Congratulations ! Want to play again ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_points">You made no points !</string>
+    <string name="lose_all_your_points">You lose all your points !</string>
+    <string name="try_at_least_one_roll_">Try at least one roll !</string>
+    <string name="pig_rules">Pig Rules</string>
+    <string name="pig_desc">A nice little pink pig</string>
+
+</resources>
